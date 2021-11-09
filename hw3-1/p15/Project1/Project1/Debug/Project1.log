@@ -1,0 +1,3 @@
+﻿  main.c
+c:\users\user\desktop\hw3-1\p15\source\main.c(11): warning C4002: 類似函式的巨集引動過程 'max' 有太多引數
+  Project1.vcxproj -> C:\Users\user\Desktop\hw3-1\p15\Project1\Project1\..\..\temp\debug\Project1.exe
