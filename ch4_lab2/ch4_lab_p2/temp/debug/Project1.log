@@ -1,0 +1,5 @@
+﻿  main.c
+c:\users\user\desktop\ch4_lab2\ch4_lab_p2\source\main.c(8): warning C4047: '函式': 'int *' 與 'int' 間接取值的層級不同
+c:\users\user\desktop\ch4_lab2\ch4_lab_p2\source\main.c(8): warning C4024: 'addbyone': 型式和實質參數 1 不同的類型
+c:\users\user\desktop\ch4_lab2\ch4_lab_p2\source\main.c(14): warning C4028: 型式參數 1 與來自宣告的不同
+  Project1.vcxproj -> C:\Users\User\Desktop\ch4_lab2\ch4_lab_p2\Project1\Project1\..\..\temp\debug\Project1.exe

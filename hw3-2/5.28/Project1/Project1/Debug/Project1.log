@@ -1,0 +1,6 @@
+﻿  main.c
+c:\users\user\desktop\hw3-2\5.28\source\main.c(12): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+  c:\users\user\desktop\hw3-2\5.28\source\main.c(12): note: 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+  c:\users\user\desktop\hw3-2\5.28\source\main.c(12): note: 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+  c:\users\user\desktop\hw3-2\5.28\source\main.c(12): note: 此引數可用為緩衝區大小
+  Project1.vcxproj -> C:\Users\user\Desktop\hw3-2\5.28\Project1\Project1\..\..\temp\debug\Project1.exe
