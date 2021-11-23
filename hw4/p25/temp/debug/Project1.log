@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\user\desktop\hw4\p25\source\main.cpp(7): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+  Project1.vcxproj -> C:\Users\user\Desktop\hw4\p25\Project1\Project1\..\..\temp\debug\Project1.exe
