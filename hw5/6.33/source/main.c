@@ -4,18 +4,18 @@
 
 int b_search(char arr[], int left, int right, int key)
 {
-	if (left > right)
+	if (left > right || key > right)
 		return -1;
 
 	int mid = left + (right - left) / 2;
 	if (key < arr[mid])
 	{
-		 return b_search(arr, left, mid + 1, key);
+		 return b_search(arr, left, mid, key);
 	}
 
 	else if (key  > arr[mid])
 	{
-		 return b_search(arr, mid + 1, right, key);
+		 return b_search(arr, mid, right, key);
 	}
 	else
 	{
@@ -34,8 +34,8 @@ int main()
 	printf("想找的數字(0~%d):", size-1);
 	scanf("%d", &k);
 	tar = b_search(r, 0, size-1, k);
-	if (tar == -1) printf("沒找到");
-	printf("%d在陣列第%d位置\n", k, tar+1);
+	if (tar == -1) printf("沒找到\n");
+	else printf("%d在陣列第%d位置\n", k, tar+1);
 
 	system("pause");
 }
