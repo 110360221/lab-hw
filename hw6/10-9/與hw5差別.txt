@@ -1,0 +1,24 @@
+hw6
+
+main     : Deck為一維陣列
+
+fillDeck : i照順序(0~51)填滿Deck陣列
+
+shuffle  : j(0~51)隨機產生，用temp讓Deck裡的元素用交換的方式打亂
+
+deal 	 : 單一迴圈列印，(i % 4)==0時，換行
+
+face,suit結構為Card函數，主程式用Card為函數宣告陣列Deck，讓Deck也有face、suit的屬性
+
+
+hw5
+
+main     : 一開始陣列Deck填滿0，之後再亂數寫入修改(shuffle)
+	   Deck為二維陣列
+
+shuffle  : card照順序(1~52)，位置隨機(row、columnn隨機)
+	  ，前測試迴圈(先隨機找位置，再判斷是否為0，若為0，寫入；反之，重新找位置)
+
+deal     : 用巢式迴圈(3變數，card、row、column)和if判斷式列印出來
+
+
